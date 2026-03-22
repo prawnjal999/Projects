@@ -40,6 +40,7 @@ A custom Python tool was developed to automate detection by combining:
 "```bash"
 python3 detect_reverse_shell.py <pcap_file>
 
+---
 
 ## Sample Output
 ============================================================
@@ -59,6 +60,8 @@ python3 detect_reverse_shell.py <pcap_file>
 [!] Verdict: HIGH confidence of reverse shell activity
 ============================================================
 
+---
+
 ## Detection Approach
 1. TCP SYN Analysis
   *Identifies the initiator of the connection
@@ -69,7 +72,9 @@ python3 detect_reverse_shell.py <pcap_file>
 3. Behavioral Analysis
   *Detects repeated communication between hosts  
   *Identifies potential beaconing or persistent sessions
-   
+
+---   
+
 ## Key Learnings
 * TCP handshake fundamentals and role identification
 * Reverse shell behavior in network traffic
