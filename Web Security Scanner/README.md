@@ -106,5 +106,3 @@ Example:
 This tool is intended for educational purposes only.
 Use it only on systems you own or have explicit permission to test.
 ---
-
-Your Name
